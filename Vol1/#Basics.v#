@@ -1057,7 +1057,7 @@ Proof.
 
 Theorem mult_0_l : forall n:nat, 0 * n = 0.
 Proof.
-  intros n. reflexivity.  Qed.
+  intros n. reflexivity.  Qed.  
 
 (** The [_l] suffix in the names of these theorems is
     pronounced "on the left." *)
